@@ -1,0 +1,41 @@
+.content{
+    width: 80%;
+    margin: 0 10%;
+    border: rgb(102, 204, 18) 1px solid;
+    min-height: 40px;
+    border-width: 0 1px 1px 1px;
+}
+
+.list-card{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card{
+  
+    border: rgb(97, 194,0) solid 1px;
+    margin: 8px 16px;
+    width: 25%;
+}
+.card-desc{
+    margin: 8px 0px 16px 16px;
+}
+.img-card{
+    width: 100%;
+    max-height: 160px;
+    display: block;
+}
+.title-card{
+    color: white;
+    width: 100%;;
+    background-color: rgb(102, 204, 18);
+    padding: 8px 16px;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.title-card:hover{
+    background-color: rgb(66, 107, 25);
+}
+.card-content{
+ color: rgb(97, 194,0);
+}
